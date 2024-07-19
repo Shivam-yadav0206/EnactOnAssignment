@@ -3,7 +3,7 @@ import LogoVertical from "../assets/LogoVertical.png";
 import Logo from "../assets/Logo.png";
 const Sidebar = () => {
 
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   // Function to toggle sidebar state
   const toggleSidebar = () => {
@@ -147,7 +147,7 @@ const Sidebar = () => {
               <div className="flex w-full my-2">
                 {" "}
                 <a
-                  className="flex items-center justify-center w-1/2 h-16 bg-gray-800  hover:text-gray-300"
+                  className="flex items-center justify-center w-1/2 h-16   hover:text-gray-300"
                   href="#">
                   <svg
                     width="29"
@@ -173,7 +173,7 @@ const Sidebar = () => {
                   </span>
                 </a>
                 <a
-                  className="flex items-center justify-center w-1/2 h-16 bg-gray-800  hover:text-gray-300"
+                  className="flex items-center justify-center w-1/2 h-16   hover:text-gray-300"
                   href="#">
                   <svg
                     width="28"

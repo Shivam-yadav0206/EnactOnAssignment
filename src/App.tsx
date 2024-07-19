@@ -131,12 +131,12 @@ function App() {
                 className="w-96 md:ml-[20%] -mt-40"
               />
 
-              <div className="md:ml-[24%]">
+              <div className="md:ml-32 ">
                 <h1 className="text-4xl -mt-16 text-yellow-600 mb-6">
                   CHEF MATT PRODUCTS
                 </h1>
 
-                <hr className="border-yellow-900  border-4 rounded-sm w-[40%] mb-4" />
+                <hr className="border-yellow-900  border-4 rounded-sm w-[80%] md:w-[40%] mb-4" />
                 <span className="text-white block mb-1">
                   Shop Gourmet Chef Quality products from the Chef Matt brand.
                 </span>
@@ -146,7 +146,7 @@ function App() {
 
                 <div className="w-full flex my-12 py-12 gap-4 justify-center items-center">
                   <svg
-                    className="mt-16 hidden sm:block"
+                    className="hidden sm:block"
                     width="76"
                     height="77"
                     viewBox="0 0 76 77"
@@ -216,7 +216,7 @@ function App() {
                   </div>
 
                   <svg
-                    className="mt-16 hidden sm:block"
+                    className=" hidden sm:block"
                     width="76"
                     height="77"
                     viewBox="0 0 76 77"
@@ -403,7 +403,10 @@ function App() {
                     </p>
                     <div className="mt-8">
                       {" "}
-                      <input className="w-[40%] px-2 py-1 bg-transparent border-2 opacity-30 bg-gray-400 border-white" />
+                      <input
+                        placeholder="Search..."
+                        className="placeholder-black bg-gray-400/50 w-[40%] px-2 py-1 border-2 opacity-30 bg-gray-400 border-white"
+                      />
                       <button className="py-1 px-2 ml-2 bg-orange-400 text-white border-2 border-white  font-semibold ">
                         Subscribe
                       </button>
